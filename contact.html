@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="shortcut icon" href="/images/favicons.png" type="image/x-icon">
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <header class="header contact-header">
+      <!-- <img src="images/logo.jpg" alt="main logo" class="logo" /> -->
+      <ion-icon name="logo-xing" class="logo"></ion-icon>
+      <nav class="navbar">
+        <ul class="navbar-lists">
+          <li><a href="/index.html" class="navbar-link home-link">Home</a></li>
+          <li>
+            <a href="/about.html" class="navbar-link about-link">About</a>
+          </li>
+          <li>
+            <a href="/service.html" class="navbar-link service-link"
+              >Services</a
+            >
+          </li>
+          <li><a href="#" class="navbar-link portfolio-link">Portfolio</a></li>
+          <li>
+            <a href="/contact.html" class="navbar-link contact-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="mobile-navbar-btn">
+        <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+        <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+      </div>
+    </header>
+    <section class="section section-contact">
+      <div class="container">
+        <h2 class="common-heading">Contact Us</h2>
+      </div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14437.83906326372!2d84.25524061990644!3d25.221434954329855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398d9fce1d123b5f%3A0xbd18eaad01a0d358!2sBikramganj%2C%20Bihar%20802212!5e0!3m2!1sen!2sin!4v1654861577370!5m2!1sen!2sin" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="section-contact-main contact-container">
+        <form action="https://formspree.io/f/xjvlzwnp" method="POST">
+          <div class="grid grid-two-column">
+            <div>
+              <label for="username"></label>
+              <input
+                type="text"
+                name="username"
+                autocomplete="off"
+                required
+                id="username"
+                placeholder="Your Name"
+              />
+            </div>
+            <div>
+              <label for="email"></label>
+              <input
+                type="email"
+                name="email"
+                required
+                autocomplete="off"
+                id="email"
+                placeholder="someone@gmail.com"
+              />
+            </div>
+          </div>
+          <div>
+            <label for="subject"></label>
+            <input
+              type="text"
+              name="subject"
+              required
+              autocomplete="off"
+              id="subject"
+              placeholder="Subject"
+            />
+          </div>
+          <div>
+            <label for="textarea"></label>
+            <textarea
+              name="message"
+              min="5"
+              id="textarea"
+              autocomplete="off"
+              required
+              cols="30"
+              rows="4"
+              placeholder="Write Your Message"
+            ></textarea>
+          </div>
+          <div>
+            <input
+              type="submit"
+              name="submit"
+              id="submit"
+              class="btn"
+              value="Send Message"
+            />
+          </div>
+        </form>
+      </div>
+    </section>
+    <footer class="section section-footer footer">
+      <div class="container grid grid-four-column">
+        <div class="f-about">
+          <h3>About</h3>
+          <p>
+            We have tested a number of registry fix and clean utilities. Hope
+            you like it. Thank You !
+          </p>
+        </div>
+        <div class="f-links">
+          <h3>Links</h3>
+          <ul>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="/index.html">Home</a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="/about.html">About</a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="/service.html">Services</a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="#">Portfolio</a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="/contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="f-services">
+          <h3>Services</h3>
+          <ul>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="#">web design</a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="#">web development</a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="#">Graphics</a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="#">Android Development</a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="#">Youtube Channel</a>
+            </li>
+          </ul>
+        </div>
+        <div class="f-address">
+          <h3>Have a Questions?</h3>
+          <address>
+            <div>
+              <p>
+                <span><ion-icon name="location-outline"></ion-icon></span>
+                Noida(UP), India
+              </p>
+            </div>
+            <div>
+              <p>
+                <span><ion-icon name="call-outline"></ion-icon></span>
+                <a href="tel:+917079047200"> +91 7079047200 </a>
+              </p>
+            </div>
+            <div>
+              <p>
+                <span><ion-icon name="mail-outline"></ion-icon></span>
+                <a href="mailto:singhsanjeetkumar11@gmail.com"
+                  >singhsanjeetkumar11@gmail.com
+                </a>
+              </p>
+            </div>
+          </address>
+        </div>
+      </div>
+      <div class="container">
+        <div class="f-social-icons">
+          <a href="https://www.facebook.com" target="_blank">
+            <ion-icon class="icons facebook" name="logo-facebook"></ion-icon>
+          </a>
+          <a href="https://www.instagram.com" target="_blank">
+           <ion-icon class="icons instagram" name="logo-instagram"></ion-icon>
+          </a>
+          <a href="https://www.youtube.com" target="_blank">
+           <ion-icon class="icons youtube" name="logo-youtube"></ion-icon>
+          </a>
+          <a href="https://www.linkedin.com" target="_blank">
+           <ion-icon class="icons linkedIn" name="logo-linkedin"></ion-icon>
+          </a>
+        </div>
+        <div class="f-credits">
+          <p>Copyright ©2022 All rights reserved | Designed with ❤ by Sanjeet Singh</p>
+        </div>
+      </div>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
